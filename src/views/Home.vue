@@ -8,7 +8,7 @@
                         <p class="hero__info--subtitle">Join the conversation on how to use Product Field to map out your world-changing ideas and build better products.</p>
                         
                         <p class="hero__info--date">Date: 22nd February, 2021</p>
-                        <p class="hero__info--time">Time: 4pm</p>
+                        <p class="hero__info--time">Time: 4pm, GMT+01:00</p>
 
                         <br>
                         <a href="https://www.eventbrite.com/e/product-framework-tickets-141263078671" target="_blank" rel="noreferrer noopener" class="btn hero__info--btn-join">
