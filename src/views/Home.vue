@@ -10,6 +10,7 @@
                         <p class="hero__info--date">Date: 22nd February, 2021</p>
                         <p class="hero__info--time">Time: 4pm</p>
 
+                        <br>
                         <a href="https://www.eventbrite.com/e/product-framework-tickets-141263078671" target="_blank" rel="noreferrer noopener" class="btn hero__info--btn-join">
                             Join Now
                         </a>
@@ -73,7 +74,7 @@
                             </div>
                         </div>
                         <div class="speakers__info--detail">
-                            <p>Michael Schieben is a co-founder at <a href="#" class="link">Field.so </a> , a startup working on software for innovative product management, and the company responsible for creating the Product Field Framework. </p>
+                            <p>Michael Schieben is a co-founder at <a href="https://field.so" class="link">Field.so </a> , a startup working on software for innovative product management, and the company responsible for creating the Product Field Framework. </p>
                             <p>Michael's craft is programming, his mindset is Design. He helps others create and collaborate on sustainable product and service innovation. He facilitates system we-thinking, co-design, and product development processes. </p>
                         </div>
                     </div>
@@ -86,7 +87,7 @@
                             <div class="speakers__info--title-name">
                                 <h3 class="role">Host</h3>
                                 <h4 class="name">Jesudamilare “JD” Adesegun-David</h4>
-                                <p class="position">Co-founder <a href="https://www.ennovatelab.com" target="_blank">Ennovate Lab.</a> </p>
+                                <p class="position">Co-founder, <a href="https://www.ennovatelab.com" target="_blank">Ennovate Lab.</a> </p>
                             </div>
                         </div>
                         <div class="speakers__info--detail">
@@ -158,7 +159,7 @@
                         <h2>Questions?</h2>
                         <p>Shoot an email to <b> hello@ennovatelab.com </b> or <b> hello@field.so </b> </p>
 
-                        <a href="#" target="_blank" rel="noreferrer noopener" class="btn questions__btn-join">
+                        <a href="https://www.eventbrite.com/e/product-framework-tickets-141263078671" target="_blank" rel="noreferrer noopener" class="btn questions__btn-join">
                             Join Now
                         </a>
                         <a href="#" target="_blank" rel="noreferrer noopener" class="btn questions__btn-watch">
@@ -183,7 +184,7 @@ export default {
     .home {
 
         .hero {
-            background: url('../assets/bg@hero.jpg') red;
+            background: url('../assets/bg@hero.jpg') #FFC83D;
             height: 90vh;
             display: flex;
             align-items: center;
@@ -262,9 +263,8 @@ export default {
             }
 
             &__img {
-                display: flex;
-                align-self: flex-end;
-                align-items: flex-end;
+                position: relative;
+                bottom: -11rem;
             }
         }
 
@@ -456,6 +456,7 @@ export default {
 
                 &-bl {
                     margin-left: 0;
+                    margin-right: 0;
                     margin-bottom: 1rem;
                 }
                 
@@ -607,7 +608,7 @@ export default {
             }
 
             .attend {
-                background: url('../assets/bg@why.svg') #FFc83d;
+                background: #FFc83d;
                 padding: 5rem .5rem;
                 margin-top: 0rem;
 
@@ -675,7 +676,7 @@ export default {
 
             .speakers {
                 background: url('../assets/bg@hero.jpg');
-                padding: 5rem .5rem;
+                padding: 5rem 1rem;
 
                 &__info {
 
@@ -752,6 +753,8 @@ export default {
                 padding: 5rem .5rem;
 
                 &__info {
+                    padding: .5rem 1rem!important;
+
                     &--title{
                         font-weight: bold;
                         color: #000;
@@ -778,7 +781,6 @@ export default {
                     
                     &--first {
                         background: #fff;
-                        padding: 1.5rem;
                         border-top-left-radius: .75rem;
                         border-top-right-radius: .75rem;
                         border-bottom-left-radius: 0rem;
@@ -789,7 +791,6 @@ export default {
                     }
                     
                     &--second {
-                        padding: 1.5rem;
                         background: #ffeec1;
                         border-top-right-radius: 0rem;
                         border-bottom-right-radius: .75rem;
@@ -851,6 +852,28 @@ export default {
 
                 &__info {
 
+                    padding: 4rem 1.5rem;
+
+                    &--main {
+                        color: #FFC83D;
+                        font-size: 1.7rem;
+                        font-weight: bold;
+                    }
+
+                    &--subtitle {
+                        color: #fff;
+                        font-size: 1rem;
+                        margin-bottom: 2rem;
+                    }
+
+                     &--time {
+                        display: block;
+                        font-size: .8rem;
+                        padding-left: .5rem;
+                        margin-bottom: 2rem;
+                        margin-left: 0rem;
+                    }
+
                     &--btn {
                         
                         &-join{
@@ -861,19 +884,49 @@ export default {
                             margin-bottom: 1rem;
                         }
 
-                            justify-content: center;
-                            text-align: center;
-
                         &-watch{
                             justify-content: center;
                             text-align: center;
                             margin: 0 auto;
-                            // width: 50%; 
                             border-radius: 100px;
-                            background: red;
                             padding: .65rem 1rem;
                             font-size: 1rem;
                         }
+                    }
+                }
+            }
+
+            .questions {
+                padding: 4rem 1rem; 
+
+                h2 {
+                    color: #FFc83d;
+                    font-size: 1.2rem;
+                    margin-bottom: 2rem;
+                }
+
+                p {
+                    margin-bottom: 2rem;
+
+                    b {
+                        color:#FFc83d;
+                    }
+                }
+
+                &__btn {
+                    
+                    &-join{
+                        width: 100%;
+                        margin-bottom: 1rem;
+                        padding: .75rem 2rem;
+                        font-size: 1rem;
+                        margin-right: .5rem;
+                    }
+
+                    &-watch{
+                        background: transparent;
+                        padding: .75rem 1rem;
+                        font-size: 1rem;
                     }
                 }
             }
