@@ -10,10 +10,10 @@
 
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-link active" aria-current="page" href="#">Why attend?</a>
-                    <a class="nav-link" href="#">Speaker</a>
-                    <a class="nav-link" href="#">Schedule</a>
-                    <a class="nav-link" href="#">Join</a>
+                    <a class="nav-link" href="#attend">Why attend?</a>
+                    <a class="nav-link" href="#speakers">Speakers</a>
+                    <a class="nav-link" href="#schedule">Schedule</a>
+                    <a class="nav-link" href="#join">Join</a>
                 </div>
             </div>
         </div>
@@ -30,9 +30,9 @@
   
     .navbar {
 
-        // padding: 1.2rem 10rem;
         padding: 1.2rem 0rem;
         background: #000;
+        border: 0;
         
         &-brand {
             img {
@@ -41,7 +41,6 @@
         }
 
         &-nav {
-
             .nav-link{
                 color: #fff;
 
@@ -51,4 +50,33 @@
             }
         }
     }
+
+    
+    @media screen and (max-width: 576px) {
+        
+        .navbar {
+
+            padding: 1.2rem 1rem;
+            
+            &-brand {
+                img {
+                    width: 10rem;
+                }
+            }
+
+            &-nav {
+                .nav-link{
+                    color: #fff;
+
+                    &:hover {
+                        color: #FFc83d;
+                    }
+                }
+            }
+        }
+    }
+       
+    @media screen and (min-width: 576px) and (max-width: 767px){}
+    @media screen and (min-width: 768px) and (max-width: 992px){}
+    @media screen and (min-width: 992px) and (max-width: 1200px){}
 </style>
