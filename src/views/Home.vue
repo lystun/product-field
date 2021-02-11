@@ -15,7 +15,7 @@
                             Join Now
                         </a>
 
-                        <a href="#" target="_blank" rel="noreferrer noopener" class="btn hero__info--btn-watch">
+                        <a href="https://youtu.be/Nlc26Gy0C-o" target="_blank" rel="noreferrer noopener" class="btn hero__info--btn-watch">
                             <span class="fas fa-play-circle"></span>
                             Watch the Video
                         </a>
@@ -51,7 +51,7 @@
                         <p class="attend__info--text-1">Solving for this has been the quest of many brilliant minds over the years. Some years back, three intrepid men, <b> KP Frahm, Michael Schieben </b> and <b> Wolfgang Wopperer-Beholz, </b> decided to take on the challenge and Product Field was the outcome.</p>
                         <p class="attend__info--text-2">The Product Field framework was created to help you align your goals and perspectives with that of your stakeholders, navigate through the product complexities, and help you build a better product for your users with confidence.</p>
 
-                        <a href="#" target="_blank" rel="noreferrer noopener" class="btn attend__info--btn">
+                        <a href="https://www.eventbrite.com/e/product-framework-tickets-141263078671" target="_blank" rel="noreferrer noopener" class="btn attend__info--btn">
                             Join Now
                         </a>
                     </div>
@@ -70,11 +70,11 @@
                             <div class="speakers__info--title-name">
                                 <h3 class="role">Speaker</h3>
                                 <h4 class="name">Michael Schieben</h4>
-                                <p class="position">Co-founder/Managing Director/ Product Lead at <a href="#">Field.</a> </p>
+                                <p class="position">Co-founder/Managing Director/ Product Lead at <a href="https://field.so" target="_blank" rel="noreferrer noopener">Field.</a> </p>
                             </div>
                         </div>
                         <div class="speakers__info--detail">
-                            <p>Michael Schieben is a co-founder at <a href="https://field.so" class="link">Field.so </a> , a startup working on software for innovative product management, and the company responsible for creating the Product Field Framework. </p>
+                            <p>Michael Schieben is a co-founder at <a href="https://field.so" target="_blank" rel="noreferrer noopener" class="link">Field.so </a> , a startup working on software for innovative product management, and the company responsible for creating the Product Field Framework. </p>
                             <p>Michael's craft is programming, his mindset is Design. He helps others create and collaborate on sustainable product and service innovation. He facilitates system we-thinking, co-design, and product development processes. </p>
                         </div>
                     </div>
@@ -162,7 +162,7 @@
                         <a href="https://www.eventbrite.com/e/product-framework-tickets-141263078671" target="_blank" rel="noreferrer noopener" class="btn questions__btn-join">
                             Join Now
                         </a>
-                        <a href="#" target="_blank" rel="noreferrer noopener" class="btn questions__btn-watch">
+                        <a href="https://youtu.be/Nlc26Gy0C-o" target="_blank" rel="noreferrer noopener" class="btn questions__btn-watch">
                             <span class="fas fa-play-circle"></span>
                             Watch the Video
                         </a>
